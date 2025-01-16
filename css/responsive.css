@@ -1,0 +1,88 @@
+@media only screen and (max-width:1200px){
+    
+}
+
+
+@media only screen and (max-width:990px){
+
+    .main_nav{
+        height: auto;
+        flex-direction: column;
+        align-items: normal;
+    }
+    .main_nav #nav_ul {
+        display: block;
+        padding: 20px;
+        }
+    .product .col_main .product_col{
+        width: 45%;
+    }
+    .footer .col-lg-3{
+        width: 50%;
+    }
+    .hero #hero_col{
+        width: 100%;
+    }
+    .hero #hero_col_1{
+        width: 100%;
+    }
+    .hero #hero_col_1 .hero_img img {
+        width: 80%;
+    }
+    .news .img_col{
+        width: 100%;
+    }
+    .news .para_col{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+
+    .second .second_1{
+        width: 30%;
+    }
+    .second .second_2{
+        width: 30%;
+    }
+    .news .gift_main .gift{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .news .gift_main{
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width:400px){
+ 
+    .hero #hero_col .col_head h1 span{
+        font-size: 90px;
+    }
+    .second .second_1{
+        width: 100%;
+    }
+    .second .second_2{
+        width: 100%;
+    }
+    .product .col_main .product_col{
+        width: 100%;
+    }
+    .product .col_main .product_col .product_details h3 {
+        font-size: 24px;
+    }
+    .news .input_head {
+        width: 100%;
+    }
+    .news .input{
+        width: 100%;
+    }
+    .footer .col-lg-3{
+        width: 100%;
+    }
+   
+   
+   
+}

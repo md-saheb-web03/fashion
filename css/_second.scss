@@ -1,0 +1,44 @@
+.second{
+    width: 100%;
+    display: flex;
+    // margin-bottom: 30px;
+
+   .second_1{
+    width: calc(50%/3);
+    height: 250px;
+    background-color: #f2c119;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .item{
+        text-align: center;
+
+        p{
+            color: #fff;
+            font-size: 27px;
+            font-weight: bold;
+        }
+    }
+   }
+   .second_2{
+    width: calc(50%/3);
+    height: 250px;
+    background-color: #182661;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+    .item{
+        text-align: center;
+
+        p{
+            color: #fff;
+            font-size: 27px;
+            font-weight: bold;
+        }
+    }
+   }
+}

@@ -1,0 +1,138 @@
+.news{
+    width: 100%;
+    padding-bottom: 20px;
+    background: #fff;
+
+
+    .news_head{
+        padding-top: 20px;
+        border-bottom:5px solid  #f2c116;
+        padding-bottom: 10px;
+        margin-bottom: 40px;
+
+       h3{
+        font-size: 40px;
+        font-weight: 900;
+        letter-spacing: 1px;
+       }
+    }
+
+    .img_col{
+        width: 42%;
+        margin-bottom: 50px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .para_col{
+        width: 58%;
+        padding-top: 20px;
+
+        .news_para{
+
+            h3{
+                font-size: 30px;
+                margin-bottom: 20px;
+                font-weight: 700;
+            }
+
+            .two_box{
+                margin-bottom: 20px;
+
+                p{
+                    font-size: 25px;
+                }
+
+                .one{
+                    padding-bottom: 3px;
+                    border-bottom: 3px solid #f2c116;
+                }
+                .two{
+                    padding-bottom: 3px;
+                    border-bottom: 3px solid #f2c116;
+                }
+            }
+
+            .news_text{
+                font-size: 22px;
+            }
+        }
+    }
+
+    .input_head{
+        width: 40%;
+        margin-bottom: 40px;
+        
+
+        h4{
+            font-size: 40px;
+            font-weight: 700;
+        }
+    }
+
+    .input{
+        width: 58%;
+        margin-bottom: 40px;
+
+        input{
+            width: 100%;
+           padding: 17px;
+           font-size: 22px;
+           border: none;
+           border: 2px solid gray;
+           border-radius: 20px;
+        }
+
+        .input_btn{
+            width: 100%;
+            display: flex;
+            justify-content: right;
+
+            button{
+                font-size: 22px;
+                padding: 10px 50px;
+                background-color: #183661;
+                color: #fff;
+                border: none;
+                border-radius: 20px;
+                font-weight: 500;
+            }
+
+            button:hover{
+                background-color: #f2c116;
+                color: black;
+            }
+        }
+    }
+.gift_main{
+        display: flex;
+        justify-content: space-between;
+
+    .gift{
+        width: 30%;
+        height: 300px;
+        background-color: #fff;
+        border-radius: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 100px;
+        box-shadow: 0px 2px 20px rgb(110, 108, 108);
+
+        .gift_img{
+
+            img{
+                margin-bottom: 10px;
+            }
+             font-size: 26px;
+             text-align: center;
+             color: #183661;
+             font-weight: 700;
+        }
+    }
+}
+   
+}
