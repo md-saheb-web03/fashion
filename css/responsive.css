@@ -49,9 +49,14 @@
     .news .gift_main .gift{
         width: 100%;
         margin-bottom: 20px;
+        margin-left: 13px;
     }
     .news .gift_main{
         display: block;
+    }
+    .hero #hero_col .col_head h1{
+        font-size: 80px;
+        margin-top: 20px;
     }
 }
 
@@ -83,6 +88,20 @@
         width: 100%;
     }
    
-   
-   
+     .hero #hero_col .col_head h1{
+        font-size: 40px;
+        
+    }
+        .hero #hero_col .col_head h1 span{
+            font-size: 70px;
+        }
+            .product .col_main .product_col .product_details h3{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+            }
+   .hero #hero_col_1 .hero_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 }
